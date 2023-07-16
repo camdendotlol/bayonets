@@ -21,7 +21,7 @@ p, span {
 }
 
 .quote {
-  max-width: 440px;
+  max-width: 300px;
   margin: 20px;
   text-align: justify;
   text-justify: kashida;

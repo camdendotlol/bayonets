@@ -6,6 +6,11 @@ body {
   line-height: 1.2;
 }
 
+p, span {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   display: flex;
   margin: 0;
@@ -16,20 +21,24 @@ body {
 }
 
 .quote {
-  max-width: 600px;
-  margin: 10px;
+  max-width: 440px;
+  margin: 20px;
+  text-align: justify;
+  text-justify: kashida;
 }
 
 .word {
   font-weight: bold;
 }
 
-.attribution {
-  text-align: right;
+.part-of-speech {
+  font-style: italic;
 }
 
-@media (max-width: 600px) {
-  body {
-    font-size: 0.8rem;
-  }
+.definition {
+  text-indent: 1rem;
+}
+
+.attribution {
+  text-align: right;
 }

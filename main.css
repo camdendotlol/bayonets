@@ -1,0 +1,35 @@
+body {
+  background: #d8d8d8;
+  font-family: 'Cardo', serif;
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  max-width: 600px;
+  margin: 10px;
+}
+
+.word {
+  font-weight: bold;
+}
+
+.attribution {
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
